@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="File_Explorer_browser.jnlp">
+  <information>
+    <title>File_Explorer</title>
+    <vendor>Rifat</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="File_Explorer.jar" size="20845" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="file_explorer.File_Explorer"  name="File_Explorer" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
